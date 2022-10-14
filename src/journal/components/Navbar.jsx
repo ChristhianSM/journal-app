@@ -14,7 +14,7 @@ export const Navbar = ({drawetWidth = 240}) => {
   return (
     <AppBar 
       position='fixed'
-      sx = {{ 
+      sx = {{
               width : { sm: `calc(100% - ${drawetWidth}px)`},
               ml: { sm: `${drawetWidth}px`}
             }}
